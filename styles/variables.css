@@ -9,5 +9,8 @@
   --text-title_color: #DB00FF;
   --text-page_color: #F1B2CE;
   --accent-color: #FF0070;
+  --secttion-title_color: #FF0070;
+  --section-title-color-transparent: rgba(255, 0, 112, 0.5);
+  --header__subtitle: #000028;
   --bg-image: url("../images/cover-image-dark.png");
 }
