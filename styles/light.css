@@ -13,4 +13,12 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --main-font: 'IBM Plex mono';
+  --bg-page_color: #FFF1F7;
+  --text-title_color: #FFC2E6;
+  --text-page_color: #353430;
+  --accent-color: #FF8DCB;
+  --secttion-title_color: #353430;
+  --header__subtitle: #353430;
+  --bg-image: url("../images/cover-image-light.png");
 }
