@@ -2,18 +2,18 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  
   height: auto;
   color: var(--text-page_color);
   font-family: var(--main-font, sans-serif);
-  background-color: var(--bg-page_color);   
+  background-color: var(--bg-page_color);
+  background-attachment: fixed;
 }
 
 /* HEADER */
 .header {
   margin-block-end: 40px;
   background-image: var(--bg-image);
-  background-attachment: fixed;
+  background-size: cover;
 }
 
 .decorated-zone {
@@ -21,7 +21,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   height: 668px;
   padding: 10px;
 }
@@ -67,7 +66,7 @@
   line-height: 25px; /* 138.889% */
 }
 
-.theme-light .text_top-right  {
+.theme-light .text_top-right {
   display: none;
 }
 
@@ -199,7 +198,7 @@
 .can__images {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px; 
+  gap: 10px;
 }
 
 img {
@@ -290,7 +289,7 @@ img {
   }
 
   .why__item {
-    grid-column: 2 / 3; 
+    grid-column: 2 / 3;
   }
   
   .what {
@@ -339,27 +338,27 @@ img {
 
   .sunset {
     grid-column: 1 / 3; 
-    grid-row: 1 / 2; 
+    grid-row: 1 / 2;
   }
 
   .icecream {
     grid-column: 3 / 4; 
-    grid-row: 1 / 3; 
+    grid-row: 1 / 3;
   }
 
   .tape {
     grid-column: 1 / 2; 
-    grid-row: 2 / 5; 
+    grid-row: 2 / 5;
   }
 
   .books {
     grid-column: 2 / 3; 
-    grid-row: 2 / 3; 
+    grid-row: 2 / 3;
   }
 
   .street {
     grid-column: 2 / 4; 
-    grid-row: 3 / 5; 
+    grid-row: 3 / 5;
   }
 
   .footer {
@@ -367,11 +366,6 @@ img {
   }
 
 }
-
-
-
-
-
 
 @media (min-width: 1024px) {
   
@@ -428,5 +422,5 @@ img {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
+
 }
