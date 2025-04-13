@@ -14,9 +14,8 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   --main-font: 'IBM Plex mono';
-  --bg-page_color: #FFF1F7;
-  --text-title_color: #FFC2E6;
-  --text-page_color: #353430;
+  --header_footer-title_color: #FFC2E6;
+  --section-text_color: #353430;
   --accent-color: #FF8DCB;
   --secttion-title_color: #353430;
   --section-title-color-transparent: rgba(53, 52, 48, 0.5);
@@ -24,12 +23,15 @@
   --bg-image: url("../images/cover-image-light.png");
 }
 
+.theme-light .decoration-for-dark-theme {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: 'IBM Plex mono';
-    --bg-page_color: #FFF1F7;
-    --text-title_color: #FFC2E6;
-    --text-page_color: #353430;
+    --header_footer-title_color: #FFC2E6;
+    --section-text_color: #353430;
     --accent-color: #FF8DCB;
     --secttion-title_color: #353430;
     --section-title-color-transparent: rgba(53, 52, 48, 0.5);
@@ -40,3 +42,5 @@
     display: none;
   }
 }
+
+

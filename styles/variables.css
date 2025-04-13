@@ -5,9 +5,8 @@
 
 :root {
   --main-font: 'IBM Plex mono';
-  --bg-page_color: #000028;
-  --text-title_color: #DB00FF;
-  --text-page_color: #F1B2CE;
+  --header_footer-title_color: #DB00FF;
+  --section-text_color: #F1B2CE;
   --accent-color: #FF0070;
   --secttion-title_color: #FF0070;
   --section-title-color-transparent: rgba(255, 0, 112, 0.5);
