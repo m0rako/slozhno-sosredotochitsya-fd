@@ -5,6 +5,7 @@
   height: auto;
   color: var(--section-text_color);
   font-family: var(--main-font, sans-serif);
+  background-color: var(--bg-page_color);
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,8 +166,7 @@
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
-  line-height: 23.4px; /* 130% */
-  
+  line-height: 23.4px; 
 }
 
 .why, .what, .how {
@@ -187,22 +187,17 @@
   text-shadow: 1px 1px 0 var(--accent-color);
 }
 
-.section__link:hover {
+.text__link:hover {
   border-bottom: 1px solid var(--section-text_color);
 }
 
-.section__link:focus {
+.text__link:focus {
   border: 1px solid var(--section-text_color);
 }
 
 .subsubtitle {
   margin-block-start: 20px;
-  margin-block-end: 10px;
-  color: var(--header__subtitle);
   font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 23.4px; /* 130% */
 }
 
 .can__images {
@@ -367,7 +362,6 @@ img {
 
   .header {
     min-height: 768px;
-    grid-template-rows: auto auto 1fr;
   }
 
   .header__theme-menu {
@@ -377,10 +371,6 @@ img {
 
   .header__theme-menu-list {
     flex-direction: row;
-  }
-
-  .header__title {
-    margin-top: 275px;
   }
 
   .header__subtitle {

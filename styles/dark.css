@@ -14,6 +14,7 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   --main-font: 'IBM Plex mono';
+  --bg-page_color: #000028;
   --header_footer-title_color: #DB00FF;
   --section-text_color: #F1B2CE;
   --accent-color: #FF0070;

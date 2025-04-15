@@ -14,6 +14,7 @@
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   --main-font: 'IBM Plex mono';
+  --bg-page_color: #FFF1F7;
   --header_footer-title_color: #FFC2E6;
   --section-text_color: #353430;
   --accent-color: #FF8DCB;
@@ -30,6 +31,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: 'IBM Plex mono';
+    --bg-page_color: #FFF1F7;
     --header_footer-title_color: #FFC2E6;
     --section-text_color: #353430;
     --accent-color: #FF8DCB;
